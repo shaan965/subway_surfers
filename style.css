@@ -4,11 +4,12 @@
 }
 
 #game {
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 900px;
     border: 1px solid black;
     margin: auto;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 #character {
@@ -16,7 +17,7 @@
     height: 100px;
     background-color: red;
     position: relative;
-    top: 300px;
+    top: 700px;
     left: 100px;
 }
 
@@ -25,17 +26,35 @@
     height: 100px;
     background-color: black;
     position: relative;
-    top: 500px;
+    top: 900px;
     animation: slide 1s infinite;
 }
 
-#white {
-    width: 300px;
-    height: 110px;
-    position: absolute;
-    top: 500px;
-    background-color: white;
-    z-index: 100000;
+#block2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 900px;
+    animation: slide 1s infinite;
+}
+
+#block3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 900px;
+    animation: slide 1s infinite;
+}
+
+#block4 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    top: 900px;
+    animation: slide 1s infinite;
 }
 
 #left, #right {
