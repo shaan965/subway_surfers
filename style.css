@@ -4,8 +4,8 @@
 }
 
 #game {
-    width: 500px;
-    height: 900px;
+    width: 1080px;
+    height: 2400px;
     border: 1px solid black;
     margin: auto;
     box-sizing: border-box;
@@ -15,18 +15,19 @@
 }
 
 #character {
-    width: 100px;
-    height: 100px;
+    width: 360px;
+    height: 360px;
     background-image: url('Assets/boat.png');
+    /* background-color: yellowgreen; */
     background-size: cover;
     position: relative;
-    top: 700px;
+    top: 600px;
     left: 100px;
 }
 
 #block {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     background-image: url('Assets/Shark.png');
     background-size: cover;
     position: relative;
@@ -35,8 +36,8 @@
 }
 
 #block2 {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     background-image: url('Assets/giantFish.png');
     background-size: cover;
     position: relative;
@@ -45,8 +46,8 @@
 }
 
 #block3 {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     background-image: url('Assets/bigBoat.png');
     background-size: cover;
     position: relative;
@@ -54,8 +55,8 @@
     animation: slide 1s infinite;
 }
 #block4 {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     background-image: url('Assets/iceberg.png');
     background-size: cover;
     position: relative;

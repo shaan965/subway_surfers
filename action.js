@@ -22,7 +22,7 @@ document.addEventListener("keydown", event => {
   var counter = 0;
   block.style.animationDuration = "1.5s";
   block.addEventListener('animationiteration', () => {
-      var random = Math.floor(Math.random() * 5);
+      var random = Math.floor(Math.random() * 3);
       left = random * 100;
       block.style.left = left + "px";
       counter++;
@@ -32,7 +32,7 @@ document.addEventListener("keydown", event => {
 
   block2.style.animationDuration = "1.5s";
   block2.addEventListener('animationiteration', () => {
-      var random2 = Math.floor(Math.random() * 5);
+      var random2 = Math.floor(Math.random() * 3);
       left = random2 * 100;
       block2.style.left = left + "px";
       counter++;
@@ -42,7 +42,7 @@ document.addEventListener("keydown", event => {
 
   block3.style.animationDuration = "1.5s";
   block3.addEventListener('animationiteration', () => {
-      var random3 = Math.floor(Math.random() * 5);
+      var random3 = Math.floor(Math.random() * 3);
       left = random3 * 100;
       block3.style.left = left + "px";
       counter++;
@@ -52,7 +52,7 @@ document.addEventListener("keydown", event => {
 
   block4.style.animationDuration = "1.5s";
   block4.addEventListener('animationiteration', () => {
-      var random4 = Math.floor(Math.random() * 5);
+      var random4 = Math.floor(Math.random() * 3);
       left = random4 * 100;
       block4.style.left = left + "px";
       counter++;
