@@ -15,7 +15,8 @@
 #character {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-image: url('Assets/boat.png');
+    background-size: cover;
     position: relative;
     top: 700px;
     left: 100px;
@@ -24,7 +25,8 @@
 #block {
     width: 100px;
     height: 100px;
-    background-color: black;
+    background-image: url('Assets/Shark.png');
+    background-size: cover;
     position: relative;
     top: 900px;
     animation: slide 1s infinite;
@@ -33,7 +35,8 @@
 #block2 {
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-image: url('Assets/giantFish.png');
+    background-size: cover;
     position: relative;
     top: 900px;
     animation: slide 1s infinite;
@@ -42,16 +45,17 @@
 #block3 {
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-image: url('Assets/bigBoat.png');
+    background-size: cover;
     position: relative;
     top: 900px;
     animation: slide 1s infinite;
 }
-
 #block4 {
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    background-image: url('Assets/iceberg.png');
+    background-size: cover;
     position: relative;
     top: 900px;
     animation: slide 1s infinite;
