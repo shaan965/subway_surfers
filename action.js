@@ -20,7 +20,7 @@ document.addEventListener("keydown", event => {
 
   var block = document.getElementById("block");
   var counter = 0;
-  block.style.animationDuration = "2.5s";
+  block.style.animationDuration = "1.5s";
   block.addEventListener('animationiteration', () => {
       var random = Math.floor(Math.random() * 5);
       left = random * 100;
@@ -30,7 +30,7 @@ document.addEventListener("keydown", event => {
 
   var block2 = document.getElementById("block2");
 
-  block2.style.animationDuration = "2.5s";
+  block2.style.animationDuration = "1.5s";
   block2.addEventListener('animationiteration', () => {
       var random2 = Math.floor(Math.random() * 5);
       left = random2 * 100;
@@ -40,7 +40,7 @@ document.addEventListener("keydown", event => {
 
   var block3 = document.getElementById("block3");
 
-  block3.style.animationDuration = "2.5s";
+  block3.style.animationDuration = "1.5s";
   block3.addEventListener('animationiteration', () => {
       var random3 = Math.floor(Math.random() * 5);
       left = random3 * 100;
@@ -50,7 +50,7 @@ document.addEventListener("keydown", event => {
 
   var block4 = document.getElementById("block4");
 
-  block4.style.animationDuration = "2.5s";
+  block4.style.animationDuration = "1.5s";
   block4.addEventListener('animationiteration', () => {
       var random4 = Math.floor(Math.random() * 5);
       left = random4 * 100;
